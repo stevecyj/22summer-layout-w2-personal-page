@@ -66,3 +66,51 @@ img {
 .banner ul img:hover {
   filter: brightness(150%);
 }
+
+.about {
+  margin: 56px 0;
+}
+
+.about h2 {
+  margin-bottom: 40px;
+  font-size: 64px;
+  line-height: 1.3125;
+  font-weight: 500;
+}
+
+.about img {
+  margin: 0 auto 20px;
+}
+
+.about-me li:nth-child(1) {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.about-me li:nth-child(2) {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.about-experience {
+  margin: 0 auto;
+  width: 384px;
+  border-top: 1px solid #000;
+}
+.about-experience li {
+  margin-top: 28px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.75;
+}
+.about-experience li::before {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: #891818;
+  border-radius: 50%;
+  margin-right: 16px;
+}
