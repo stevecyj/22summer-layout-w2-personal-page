@@ -67,6 +67,7 @@ img {
   filter: brightness(150%);
 }
 
+/* about */
 .about {
   margin: 56px 0;
 }
@@ -113,4 +114,41 @@ img {
   background: #891818;
   border-radius: 50%;
   margin-right: 16px;
+}
+
+/* brand */
+.brand {
+  padding: 56px 0 160px 0;
+  background: #000;
+  color: #fff;
+}
+.brand h2 {
+  font-size: 64px;
+  line-height: 1.3125;
+  margin-bottom: 12px;
+}
+.brand h3 {
+  font-size: 24px;
+  line-height: 1.75;
+  margin-bottom: 32px;
+}
+.brand p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 68px;
+  font-style: normal;
+}
+.brand ul {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.brand ul li:nth-child(1) {
+  margin-bottom: 40px;
+}
+
+.brand ul li:nth-child(2) {
+  margin-right: 24px;
 }
