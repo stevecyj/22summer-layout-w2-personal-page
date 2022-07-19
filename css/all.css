@@ -22,6 +22,12 @@ img {
   margin: 0 auto;
 }
 
+.title {
+  font-size: 64px;
+  line-height: 1.3125;
+  font-weight: 500;
+}
+
 /* banner */
 .banner {
   display: flex;
@@ -72,15 +78,8 @@ img {
   margin: 56px 0;
 }
 
-.about h2 {
-  margin-bottom: 40px;
-  font-size: 64px;
-  line-height: 1.3125;
-  font-weight: 500;
-}
-
 .about img {
-  margin: 0 auto 20px;
+  margin: 40px auto 20px;
 }
 
 .about-me li:nth-child(1) {
@@ -121,16 +120,13 @@ img {
   padding: 56px 0 160px 0;
   background: #000;
   color: #fff;
+  font-weight: 500;
 }
-.brand h2 {
-  font-size: 64px;
-  line-height: 1.3125;
-  margin-bottom: 12px;
-}
+
 .brand h3 {
   font-size: 24px;
   line-height: 1.75;
-  margin-bottom: 32px;
+  margin: 12px auto 32px;
 }
 .brand p {
   font-size: 20px;
@@ -143,7 +139,6 @@ img {
   justify-content: center;
   width: 1200px;
   flex-wrap: wrap;
-  margin: 0 auto;
 }
 .brand ul li:nth-child(1) {
   margin-bottom: 40px;
@@ -151,4 +146,27 @@ img {
 
 .brand ul li:nth-child(2) {
   margin-right: 24px;
+}
+
+/* other-works */
+.other-works {
+  padding: 56px 0 144px 0;
+}
+.other-works p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 16px auto 40px;
+}
+
+.other-works ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.other-works ul li h4 {
+  margin: 16px 0 48px;
+  font-size: 20px;
+  line-height: 2.1;
+  font-weight: 500;
 }
