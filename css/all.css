@@ -22,6 +22,12 @@ img {
   margin: 0 auto;
 }
 
+.title {
+  font-size: 64px;
+  line-height: 1.3125;
+  font-weight: 500;
+}
+
 /* banner */
 .banner {
   display: flex;
@@ -67,19 +73,13 @@ img {
   filter: brightness(150%);
 }
 
+/* about */
 .about {
   margin: 56px 0;
 }
 
-.about h2 {
-  margin-bottom: 40px;
-  font-size: 64px;
-  line-height: 1.3125;
-  font-weight: 500;
-}
-
 .about img {
-  margin: 0 auto 20px;
+  margin: 40px auto 20px;
 }
 
 .about-me li:nth-child(1) {
@@ -113,4 +113,79 @@ img {
   background: #891818;
   border-radius: 50%;
   margin-right: 16px;
+}
+
+/* brand */
+.brand {
+  padding: 56px 0 160px 0;
+  background: #000;
+  color: #fff;
+  font-weight: 500;
+}
+
+.brand h3 {
+  font-size: 24px;
+  line-height: 1.75;
+  margin: 12px auto 32px;
+}
+.brand p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 68px;
+  font-style: normal;
+}
+.brand ul {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  flex-wrap: wrap;
+}
+.brand ul li:nth-child(1) {
+  margin-bottom: 40px;
+}
+
+.brand ul li:nth-child(2) {
+  margin-right: 24px;
+}
+
+/* other-works */
+.other-works {
+  padding: 56px 0 144px 0;
+}
+.other-works p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 16px auto 40px;
+}
+
+.other-works ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.other-works ul li h4 {
+  margin: 16px 0 48px;
+  font-size: 20px;
+  line-height: 2.1;
+  font-weight: 500;
+}
+
+/* contact */
+.contact {
+  padding: 64px 0;
+  background: #000;
+  color: #fff;
+}
+
+.contact ul li {
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.contact ul li a {
+  text-decoration: none;
+  color: #fff;
 }
